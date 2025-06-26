@@ -1,0 +1,56 @@
+.about-section {
+    padding: 6rem 0; /* Increased padding for more whitespace */
+    max-width: 800px; /* Limit content width for better readability */
+    margin: 0 auto;
+  }
+  
+  .about-section h2 {
+    font-size: 3.5rem; /* Larger heading */
+    font-weight: 600;
+    margin-bottom: 2.5rem; /* Increased margin for spacing */
+    line-height: 1.2; /* Improved line height for readability */
+    color: #333; /* Darker text for better contrast */
+    text-align: left; /* Aligned text to the left */
+  }
+  
+  .about-section p {
+    font-size: 1.15rem; /* Slightly larger paragraph text */
+    line-height: 1.8; /* Improved line height for paragraph text */
+    color: #555; /* Slightly darker paragraph text */
+    margin-bottom: 2rem; /* Increased margin for spacing */
+    text-align: left;
+  }
+  
+  .about-section strong {
+    font-weight: 600; /* Bold text for emphasis */
+    color: #222; /* Darker text for strong elements */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .about-section {
+      padding: 4rem 2rem;
+    }
+  
+    .about-section h2 {
+      font-size: 2.8rem;
+    }
+  
+    .about-section p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-section {
+      padding: 3rem 1rem;
+    }
+  
+    .about-section h2 {
+      font-size: 2.2rem;
+    }
+  
+    .about-section p {
+      font-size: 1rem;
+    }
+  }

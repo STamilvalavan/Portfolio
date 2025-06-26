@@ -1,0 +1,92 @@
+.achievements-section {
+  padding: 6rem 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.achievements-section h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  line-height: 1.2;
+  color: #333;
+  text-align: left;
+}
+
+.achievements-list {
+  display: flex;
+  flex-direction: column; /* Changed to column layout */
+  gap: 2rem;
+}
+
+.achievement-item {
+  display: flex; /* Flex layout for icon and text */
+  align-items: flex-start; /* Align items to the top */
+  gap: 1.5rem; /* Space between icon and text */
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #ddd; /* Added a subtle border */
+  transition: border-color 0.3s ease;
+  text-align: left; /* Aligned text to the left */
+}
+
+.achievement-item:hover {
+  border-color: #bbb; /* Slightly darker border on hover */
+}
+
+.achievement-icon {
+  font-size: 2rem;
+  color: #ffc107;
+  flex-shrink: 0; /* Prevent icon from shrinking */
+}
+
+.achievement-item h3 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem;
+  color: #333;
+}
+
+.achievement-item .description {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .achievements-section {
+    padding: 4rem 2rem;
+  }
+
+  .achievements-section h2 {
+    font-size: 2.8rem;
+  }
+
+  .achievement-item {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: stretch; /* Stretch items to full width */
+  }
+
+  .achievement-icon {
+    margin-bottom: 1rem; /* Add margin below icon */
+  }
+}
+
+@media (max-width: 480px) {
+  .achievements-section {
+    padding: 3rem 1rem;
+  }
+
+  .achievements-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .achievement-item h3 {
+    font-size: 1.3rem;
+  }
+
+  .achievement-item .description {
+    font-size: 1rem;
+  }
+}

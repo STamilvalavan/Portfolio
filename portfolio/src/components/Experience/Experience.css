@@ -1,0 +1,87 @@
+.experience-section {
+  padding: 6rem 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experience-section h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  line-height: 1.2;
+  color: #333;
+  text-align: left;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-item {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  text-align: left;
+}
+
+.experience-item:hover {
+  border-color: #bbb;
+}
+
+.experience-item h3 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem;
+  color: #333;
+}
+
+.experience-item .role,
+.experience-item .duration {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0 0 0.5rem;
+}
+
+.brief-description {
+  font-size: 1rem;
+  color: #444;
+  font-style: italic;
+  margin-top: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.full-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.experience-item.active {
+  background: #f0f0f0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 4rem 2rem;
+  }
+
+  .experience-section h2 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-section {
+    padding: 3rem 1rem;
+  }
+
+  .experience-section h2 {
+    font-size: 2.2rem;
+  }
+}
